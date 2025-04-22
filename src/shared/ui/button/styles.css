@@ -20,6 +20,7 @@
   background-color: transparent;
   border: 1px solid rgba(21, 33, 207, 1);
   border-radius: 64px;
+  padding-inline: 77px;
 }
 
 .button_icon {

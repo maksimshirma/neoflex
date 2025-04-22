@@ -1,0 +1,31 @@
+.home-page {
+  flex-grow: 1;
+
+  display: flex;
+}
+
+.home-page__card-area {
+  width: 50%;
+  height: 100%;
+
+  padding-inline: 48px;
+  padding-block: 165px 75px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+
+.home-page__buttons {
+  display: flex;
+  gap: 45px;
+  padding-left: 8px;
+}
+
+.home-page__img-area {
+  width: 50%;
+
+  padding-top: 66px;
+}

@@ -3,6 +3,9 @@
   width: 100vw;
   max-width: 1369px;
 
+  display: flex;
+  flex-direction: column;
+
   margin: 0 auto;
   padding-top: 26.72px;
   padding-bottom: 57px;
