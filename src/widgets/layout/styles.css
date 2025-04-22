@@ -1,0 +1,19 @@
+.layout {
+  height: 100vh;
+  width: 100vw;
+  max-width: 1369px;
+
+  margin: 0 auto;
+  padding-top: 26.72px;
+  padding-bottom: 57px;
+
+  box-sizing: border-box;
+}
+
+.layout__header {
+  margin-bottom: 20.28px;
+}
+
+.layout__navigation {
+  margin-bottom: 15.72px;
+}
