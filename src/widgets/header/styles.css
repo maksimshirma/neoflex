@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+
+  box-sizing: border-box;
+  padding-bottom: 18.72px;
+  border-bottom: 1px solid rgba(215, 215, 215, 1);
+}
+
+.header__profile {
+  flex-grow: 1;
+}
+
+.header__contacts, .header__logout {
+  flex-shrink: 0;
+}
+
+.header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 17.5px;
+}
+
+.contacts__number {
+  font-family: 'Poppins', 'sans-serif';
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(21, 33, 207, 1);
+}
