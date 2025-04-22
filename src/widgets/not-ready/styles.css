@@ -1,0 +1,15 @@
+.not-ready {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-ready__text {
+  font-family: 'ABeeZee';
+  font-size: 40px;
+  font-style: italic;
+  opacity: 60%;
+}
