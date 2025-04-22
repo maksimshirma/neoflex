@@ -1,0 +1,66 @@
+.credit-card {
+  position: relative;
+
+  width: 395px;
+  height: 227px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 83.89px;
+
+  padding: 30.84px 37.62px;
+  border-radius: 30px;
+  background: linear-gradient(177.23deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+
+  font-family: 'ABeeZee';
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 1);
+}
+
+.credit-card__ellipse-top {
+  position: absolute;
+  opacity: 8%;
+
+  top: 0;
+  right: 0;
+}
+
+.credit-card__ellipse-bottom {
+  position: absolute;
+  opacity: 10%;
+
+  bottom: 0;
+  left: 0;
+}
+
+.credit-card__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-card__balance {
+  display: flex;
+  flex-direction: column;
+  gap: 11.1px;
+
+  padding-top: 6.17px;
+}
+
+.balance__label {
+  font-size: 14px;
+  opacity: 54%;
+}
+
+.balance__amount {
+  font-size: 28px;
+}
+
+.credit-card__number {
+  font-size: 14px;
+}
+
+.credit-card__date {
+  font-size: 14px;
+}

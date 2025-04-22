@@ -11,3 +11,11 @@
   font-weight: 600;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('./ABeeZee-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
