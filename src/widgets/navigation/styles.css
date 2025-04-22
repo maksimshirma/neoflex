@@ -1,0 +1,31 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 48.88px;
+}
+
+.navigation__tabs {
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.navigation__tab {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(156, 156, 156, 1); 
+}
+
+.navigation__tab.active {
+  color: rgba(1, 56, 249, 1);
+}
+
+.navigation__action {
+  flex-shrink: 0;
+}
