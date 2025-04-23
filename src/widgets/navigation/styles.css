@@ -15,9 +15,7 @@
 }
 
 .navigation__tab {
-  font-family: 'Poppins';
   font-weight: 600;
-  font-size: 16px;
   text-decoration: none;
   color: rgba(156, 156, 156, 1); 
 }
