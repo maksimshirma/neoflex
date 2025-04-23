@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Button, Checkbox, icons, Input, useNotification } from '@/shared';
-import { InputLabels, InputPlaceholders, InputsIds, schema } from './types';
+import { CreditRegistrationForm, InputLabels, InputPlaceholders, InputsIds, schema } from './types';
 import './styles.css';
 
 export const CreditRegistration: FC = () => {
@@ -27,7 +27,7 @@ export const CreditRegistration: FC = () => {
 
   const { showNotification } = useNotification();
 
-  const onSubmit = (data: any) => {
+  const onSubmit = (data: CreditRegistrationForm) => {
     console.log(data);
     showNotification(
       'Заявка оформлена\nБанк рассмотрит заявление в течении 1 рабочего дня',

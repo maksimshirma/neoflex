@@ -63,3 +63,5 @@ export const schema = yup
     [InputsIds.MailingList]: yup.array(yup.string()),
   })
   .required();
+
+export type CreditRegistrationForm = yup.InferType<typeof schema>;
