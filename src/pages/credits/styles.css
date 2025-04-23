@@ -3,5 +3,5 @@
   background-color: rgba(247, 247, 247, 1);
   padding: 50px 104px 40px 104px;
 
-  overflow-y: scroll;
+  overflow-y: auto;
 }

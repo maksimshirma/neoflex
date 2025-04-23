@@ -1,0 +1,30 @@
+.notification {
+  width: 621px;
+  height: 223px;
+
+  padding: 64px 82px 74px 47px;  
+
+  border: 1px solid rgba(21, 33, 207, 1);
+  border-radius: 64px;
+
+  background-color: rgba(255, 255, 255, 1);
+
+  box-sizing: border-box;
+}
+
+.notification_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 29px;
+}
+
+.notification__message {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 15px;
+
+  white-space: pre-wrap;
+
+  color: rgba(21, 33, 207, 1);
+}

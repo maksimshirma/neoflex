@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { Button, Checkbox, Input } from '@/shared';
+import { Button, Checkbox, icons, Input, useNotification } from '@/shared';
 import { InputLabels, InputPlaceholders, InputsIds, schema } from './types';
 import './styles.css';
 
@@ -25,8 +25,15 @@ export const CreditRegistration: FC = () => {
     },
   });
 
+  const { showNotification } = useNotification();
+
   const onSubmit = (data: any) => {
     console.log(data);
+    showNotification(
+      'Заявка оформлена\nБанк рассмотрит заявление в течении 1 рабочего дня',
+      <icons.NotificationOk />,
+      10000,
+    );
     throw new Error('Function not implemented yet.');
   };
 
