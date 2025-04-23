@@ -8,6 +8,7 @@ interface Props extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'type' | '
   icon?: ReactNode;
   iconPlacement?: ButtonIconPlacement;
   flat?: boolean;
+  htmlType?: ButtonHTMLAttributes<HTMLButtonElement>['type'];
 }
 
 export const Button: FC<Props> = ({
@@ -17,6 +18,7 @@ export const Button: FC<Props> = ({
   icon,
   iconPlacement = ButtonIconPlacement.Start,
   flat,
+  htmlType,
   ...props
 }) => {
   let buttonClassName = `button button_${type}`;
@@ -31,7 +33,7 @@ export const Button: FC<Props> = ({
   }
 
   return (
-    <button className={buttonClassName} {...props}>
+    <button className={buttonClassName} {...props} type={htmlType}>
       {!!icon && <div className='button__icon'>{icon}</div>}
       <span className='button__text'>{text}</span>
     </button>

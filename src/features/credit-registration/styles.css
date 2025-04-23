@@ -1,0 +1,22 @@
+.credit-registration {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+}
+
+.credit-registration__inputs-area {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+
+  margin-bottom: 39px;
+}
+
+.credit-registration__checkboxes-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-bottom: 71px;
+}

@@ -1,0 +1,1 @@
+export { CreditRegistration } from './CreditRegistration';
